@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Fonts END -->
+        <link
+            rel="shortcut icon"
+            href="../src/asset/user (1).svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../src/css/output.css" />
+        <title>Spydchickn</title>
+    </head>
+    <body>
+        <!-- Up -->
+        <div
+            id="up"
+            class="fixed bottom-3 right-3 bg-[#47aaed] p-2 rounded-full animate-bounce"
+        >
+            <a href="#home"
+                ><img class="w-4" src="../src/asset/arrow-up.svg" alt=""
+            /></a>
+        </div>
+
+        <!-- navbar -->
+        <div
+            id="navbar"
+            class="navbar relative z-10 flex items-center left-0 w-full justify-center"
+        >
+            <div class="container relative">
+                <div
+                    class="navbar-box flex justify-between md:justify-around items-center p-2 relative"
+                >
+                    <div class="box flex items-center gap-2">
+                        <img src="../src/asset/user (1).svg" alt="" />
+                        <a
+                            href="#"
+                            class="font-bold text-[#47aaed] text-[20px]"
+                        >
+                            People
+                        </a>
+                    </div>
+
+                    <div
+                        id="list"
+                        class="list-menu absolute hidden z-40 py-5 justify-center md:py-2 shadow-lg rounded-lg text-white md:text-black border border-white bg-transparent backdrop-blur-sm max-w-[200px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-[50%] md:shadow-none text-"
+                    >
+                        <ul class="md:flex gap-8 grid justify-center">
+                            <li>
+                                <a
+                                    href="#home"
+                                    class="md:text-[#43aff7] bg-black p-2 px-4 rounded-lg md:bg-transparent md:p-0 md:px-0"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#about"
+                                    class="bg-black p-2 px-4 rounded-lg md:bg-transparent md:p-0 md:px-0"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="bg-black p-2 px-4 rounded-lg md:bg-transparent md:p-0 md:px-0"
+                                    >Portofolio</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="bg-black p-2 px-4 rounded-lg md:bg-transparent md:p-0 md:px-0"
+                                    >Skills</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="bg-black p-2 px-4 rounded-lg md:bg-transparent md:p-0 md:px-0"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex items-center px-4 md:hidden">
+                        <button
+                            id="hamburger"
+                            class="hamburger block absolute right-4"
+                        >
+                            <span
+                                class="hamburger-line transition-all duration-300"
+                            ></span>
+                            <span
+                                class="hamburger-line transition-all duration-300"
+                            ></span>
+                            <span
+                                class="hamburger-line transition-all duration-300"
+                            ></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home -->
+
+        <div
+            id="home"
+            class="home min-h-screen items-start pt-0 pb-10 md:pb-0 sm:pt-10 md:pt-16 flex"
+        >
+            <div class="container mx-auto">
+                <div
+                    class="home-box flex flex-wrap items-center justify-center md:flex-row"
+                >
+                    <div
+                        class="box relative order-2 md:order-1 md:w-1/2 text-center md:text-start"
+                    >
+                        <span
+                            class="font-bold uppercase font-Poppins md:justify-center text-[#36afff] text-[1rem] md:text-2xl"
+                            >I Am Front End Development</span
+                        >
+                        <h2
+                            class="md:text-6xl text-3xl uppercase font-bold font-Poppins text-[#36afff] drop-shadow-xl"
+                        >
+                            People Here
+                        </h2>
+                        <p
+                            class="sm:w-3/4 px-7 sm:px-0 text-[13px] inline-block mt-2 md:text-start"
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Aliquid doloremque sapiente asperiores labore
+                            recusandae aspernatur ad ullam fugit, earum maxime
+                            vero nihil ratione quisquam est, dolorum quae magni
+                            distinctio excepturi qui nam officia consequuntur
+                            suscipit officiis quaerat! Dicta, ratione mollitia.
+                        </p>
+
+                        <div>
+                            <a
+                                href=""
+                                class="bg-[#47aaed] text-[1rem] py-1 px-4 mx-auto sm:py-2 sm:px-6 rounded-lg inline-block sm:text-base mt-4 font-bold text-white hover:shadow-xl hover:bg-[#6abfff] hover:text-[#f2fafc]"
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="box flex justify-center items-center md:w-1/2 relative order-1 md:order-2"
+                    >
+                        <img
+                            class="pt-8 w-[60%] sm:w-[70%]"
+                            src="../src/asset/background-shapes-png-1-Images-PNG-Transparent.png"
+                            alt=""
+                        />
+                        <img
+                            class="absolute inline-block mx-auto w-[60%] top-0 sm:w-[70%]"
+                            src="../src/asset/Web_Developer-transformed-removebg-preview.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div
+            id="about"
+            class="about pt-20 md:pt-12 pb-16 bg-[#6abfff] relative"
+        >
+            <div class="absolute left-[45%]">
+                <div class="balss"></div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="about-box w-full px-4">
+                    <div class="max-w-xl mx-auto md:text-center mb-16 relative">
+                        <h4
+                            class="font-semibold mb-2 uppercase text-white tracking-widest"
+                        >
+                            About
+                        </h4>
+                        <h2 class="font-bold text-3xl mb-4 text-white">
+                            Galery
+                        </h2>
+                        <p class="font-medium text-sm text-white">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Vitae, minus ut? Iure sed corporis
+                            exercitationem iusto praesentium ipsum reprehenderit
+                            deserunt.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div
+                    class="w-full px-4 grid gap-8 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
+                >
+                    <div class="mb-2 p-4 bg-blue-100 mr-1 rounded-md">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="../src/asset/1.png" alt="" />
+                        </div>
+                        <h3 class="font-bold text-xl mt-3">Learn Try</h3>
+                        <p class="font-light text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet vero iure repudiandae asperiores autem
+                            saepe quas, voluptatem sequi quo numquam!
+                        </p>
+                        <div class="mt-2 flex justify-end">
+                            <a
+                                href=""
+                                class="p-1 text-sm flex rounded-tl-xl rounded-br-xl tracking-wider bg-blue-300 hover:bg-red-300 duration-300"
+                                ><p>Visit Here</p>
+                                <img src="../src/asset/arrow-right.svg" alt=""
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 p-4 bg-blue-100 mr-1 rounded-md">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="../src/asset/3.png" alt="" />
+                        </div>
+                        <h3 class="font-bold text-xl mt-3">Learn Try</h3>
+                        <p class="font-light text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet vero iure repudiandae asperiores autem
+                            saepe quas, voluptatem sequi quo numquam!
+                        </p>
+                        <div class="mt-2 flex justify-end">
+                            <a
+                                href=""
+                                class="p-1 text-sm flex rounded-tl-xl rounded-br-xl tracking-wider bg-blue-300 hover:bg-red-300 duration-300"
+                                ><p>Visit Here</p>
+                                <img src="../src/asset/arrow-right.svg" alt=""
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 p-4 bg-blue-100 mr-1 rounded-md">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="../src/asset/2.png" alt="" />
+                        </div>
+                        <h3 class="font-bold text-xl mt-3">Learn Try</h3>
+                        <p class="font-light text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet vero iure repudiandae asperiores autem
+                            saepe quas, voluptatem sequi quo numquam!
+                        </p>
+                        <div class="mt-2 flex justify-end">
+                            <a
+                                href=""
+                                class="p-1 text-sm flex rounded-tl-xl rounded-br-xl tracking-wider bg-blue-300 hover:bg-red-300 duration-300"
+                                ><p>Visit Here</p>
+                                <img src="../src/asset/arrow-right.svg" alt=""
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mb-2 p-4 bg-blue-100 mr-1 rounded-md md:col-span-2 md:col-start-1"
+                    >
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="../src/asset/2.png" alt="" />
+                        </div>
+                        <h3 class="font-bold text-xl mt-3">Learn Try</h3>
+                        <p class="font-light text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet vero iure repudiandae asperiores autem
+                            saepe quas, voluptatem sequi quo numquam!
+                        </p>
+                        <div class="mt-2 flex justify-end">
+                            <a
+                                href=""
+                                class="p-1 text-sm flex rounded-tl-xl rounded-br-xl tracking-wider bg-blue-300 hover:bg-red-300 duration-300"
+                                ><p>Visit Here</p>
+                                <img src="../src/asset/arrow-right.svg" alt=""
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mb-2 p-4 flex items-center flex-col gap-2 justify-center rounded-md"
+                    >
+                        <div class="w-full h-4 bg-blue-100 rounded-full"></div>
+                        <div
+                            class="bg-blue-100 shadow-lg h-auto mr-1 rounded-md p-5"
+                        >
+                            <div>
+                                <h1
+                                    class="uppercase tracking-widestr font-Poppins font-bold text-xl"
+                                >
+                                    Jangan Lupa FOllOW
+                                </h1>
+                                <div class="flex mb-3">
+                                    <img
+                                        src="../src/asset/arrow-down.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="../src/asset/arrow-down.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="../src/asset/arrow-down.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="../src/asset/arrow-down.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="../src/asset/arrow-down.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="../src/asset/arrow-down.svg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div class="flex">
+                                    <a href=""
+                                        ><img
+                                            class="w-8"
+                                            src="../src/asset/instagram.png"
+                                            alt=""
+                                    /></a>
+                                    <a href=""
+                                        ><img
+                                            class="w-8"
+                                            src="../src/asset/tiktok.png"
+                                            alt=""
+                                    /></a>
+                                    <a href=""
+                                        ><img
+                                            class="w-8"
+                                            src="../src/asset/instagram.png"
+                                            alt=""
+                                    /></a>
+                                    <a href=""
+                                        ><img
+                                            class="w-8"
+                                            src="../src/asset/instagram.png"
+                                            alt=""
+                                    /></a>
+                                    <a href=""
+                                        ><img
+                                            class="w-8"
+                                            src="../src/asset/instagram.png"
+                                            alt=""
+                                    /></a>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Ea, dolorem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-96"></div>
+        <!-- cript -->
+        <script src="../src/js/script.js"></script>
+    </body>
+</html>
